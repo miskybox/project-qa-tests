@@ -1,0 +1,111 @@
+# Page snapshot
+
+```yaml
+- text: SHOP
+- navigation:
+  - link "SHOP Home":
+    - /url: /
+    - text: SHOP
+  - 'link "Shopping cart: 0 items"':
+    - /url: /cart
+    - 'button "Shopping cart: 0 items"':
+      - img
+  - link "Men's Outerwear":
+    - /url: /list/mens_outerwear
+  - link "Ladies Outerwear":
+    - /url: /list/ladies_outerwear
+  - link "Men's T-Shirts":
+    - /url: /list/mens_tshirts
+  - link "Ladies T-Shirts":
+    - /url: /list/ladies_tshirts
+- main:
+  - img "Men's Outerwear"
+  - heading "Men's Outerwear" [level=1]
+  - text: (16 items)
+  - list:
+    - listitem:
+      - link "Men's Tech Shell Full-Zip Men's Tech Shell Full-Zip $50.20":
+        - /url: /detail/mens_outerwear/Men+s+Tech+Shell+Full-Zip
+        - img "Men's Tech Shell Full-Zip"
+        - text: Men's Tech Shell Full-Zip $50.20
+    - listitem:
+      - link "Anvil L/S Crew Neck - Grey Anvil L/S Crew Neck - Grey $22.15":
+        - /url: /detail/mens_outerwear/Anvil+L+S+Crew+Neck+-+Grey
+        - img "Anvil L/S Crew Neck - Grey"
+        - text: Anvil L/S Crew Neck - Grey $22.15
+    - listitem:
+      - link "Green Flex Fleece Zip Hoodie Green Flex Fleece Zip Hoodie $45.65":
+        - /url: /detail/mens_outerwear/Green+Flex+Fleece+Zip+Hoodie
+        - img "Green Flex Fleece Zip Hoodie"
+        - text: Green Flex Fleece Zip Hoodie $45.65
+    - listitem:
+      - link "Android Nylon Packable Jacket Android Nylon Packable Jacket $33.60":
+        - /url: /detail/mens_outerwear/Android+Nylon+Packable+Jacket
+        - img "Android Nylon Packable Jacket"
+        - text: Android Nylon Packable Jacket $33.60
+    - listitem:
+      - link "YouTube Ultimate Hooded Sweatshirt YouTube Ultimate Hooded Sweatshirt $32.35":
+        - /url: /detail/mens_outerwear/YouTube+Ultimate+Hooded+Sweatshirt
+        - img "YouTube Ultimate Hooded Sweatshirt"
+        - text: YouTube Ultimate Hooded Sweatshirt $32.35
+    - listitem:
+      - link "Grey Heather Fleece Zip Hoodie Grey Heather Fleece Zip Hoodie $38.85":
+        - /url: /detail/mens_outerwear/Grey+Heather+Fleece+Zip+Hoodie
+        - img "Grey Heather Fleece Zip Hoodie"
+        - text: Grey Heather Fleece Zip Hoodie $38.85
+    - listitem:
+      - link "Vastrm Hoodie Vastrm Hoodie $200.00":
+        - /url: /detail/mens_outerwear/Vastrm+Hoodie
+        - img "Vastrm Hoodie"
+        - text: Vastrm Hoodie $200.00
+    - listitem:
+      - link "Recycled Plastic Bottle Hoodie - Green Recycled Plastic Bottle Hoodie - Green $60.95":
+        - /url: /detail/mens_outerwear/Recycled+Plastic+Bottle+Hoodie+-+Green
+        - img "Recycled Plastic Bottle Hoodie - Green"
+        - text: Recycled Plastic Bottle Hoodie - Green $60.95
+    - listitem:
+      - link "Rowan Pullover Hood Rowan Pullover Hood $60.85":
+        - /url: /detail/mens_outerwear/Rowan+Pullover+Hood
+        - img "Rowan Pullover Hood"
+        - text: Rowan Pullover Hood $60.85
+    - listitem:
+      - link "Men's Voyage Fleece Jacket Men's Voyage Fleece Jacket $48.00":
+        - /url: /detail/mens_outerwear/Men+s+Voyage+Fleece+Jacket
+        - img "Men's Voyage Fleece Jacket"
+        - text: Men's Voyage Fleece Jacket $48.00
+    - listitem:
+      - link "Eco-Jersey Chrome Zip Up Hoodie Eco-Jersey Chrome Zip Up Hoodie $37.75":
+        - /url: /detail/mens_outerwear/Eco-Jersey+Chrome+Zip+Up+Hoodie
+        - img "Eco-Jersey Chrome Zip Up Hoodie"
+        - text: Eco-Jersey Chrome Zip Up Hoodie $37.75
+    - listitem:
+      - link "Android Colorblock Hooded Pullover Android Colorblock Hooded Pullover $50.20":
+        - /url: /detail/mens_outerwear/Android+Colorblock+Hooded+Pullover
+        - img "Android Colorblock Hooded Pullover"
+        - text: Android Colorblock Hooded Pullover $50.20
+    - listitem:
+      - link "Tri-blend Full-Zip Hoodie Tri-blend Full-Zip Hoodie $52.20":
+        - /url: /detail/mens_outerwear/Tri-blend+Full-Zip+Hoodie
+        - img "Tri-blend Full-Zip Hoodie"
+        - text: Tri-blend Full-Zip Hoodie $52.20
+    - listitem:
+      - link "Fleece Full-Zip Hoodie Fleece Full-Zip Hoodie $45.65":
+        - /url: /detail/mens_outerwear/Fleece+Full-Zip+Hoodie
+        - img "Fleece Full-Zip Hoodie"
+        - text: Fleece Full-Zip Hoodie $45.65
+    - listitem:
+      - link "Jacquard-Knit Full-Zip Fleece Jacquard-Knit Full-Zip Fleece $74.90":
+        - /url: /detail/mens_outerwear/Jacquard-Knit+Full-Zip+Fleece
+        - img "Jacquard-Knit Full-Zip Fleece"
+        - text: Jacquard-Knit Full-Zip Fleece $74.90
+    - listitem:
+      - link "YouTube Unisex Flex Fleece Zip Hoodie YouTube Unisex Flex Fleece Zip Hoodie $45.25":
+        - /url: /detail/mens_outerwear/YouTube+Unisex+Flex+Fleece+Zip+Hoodie
+        - img "YouTube Unisex Flex Fleece Zip Hoodie"
+        - text: YouTube Unisex Flex Fleece Zip Hoodie $45.25
+- contentinfo:
+  - link "Made by Polymer":
+    - /url: https://www.polymer-project.org/3.0/toolbox/
+  - text: Demo Only
+- text: Men's Outerwear, loaded
+```
