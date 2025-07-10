@@ -2,7 +2,7 @@ import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
   testDir: './tests',
-  timeout: 30000,
+  timeout: 30_000,
   retries: 1,
   reporter: [
     ['list'],
@@ -23,10 +23,6 @@ export default defineConfig({
     grep: /@regression/,
   },
   {
-    name: 'form-validation',
-    grep: /@form/,
-  },
-  {
     name: 'shipping-same',
     grep: /@shippingSame/,
   },
@@ -38,8 +34,9 @@ export default defineConfig({
 
   use: {
     headless: true,
-    screenshot: 'on',
-    video: 'on',
-    trace: 'on'
+    actionTimeout: 10_000,
+    screenshot: 'only-on-failure', 
+    video: 'on-first-retry',
+    trace: 'retain-on-failure',
   }
 });
