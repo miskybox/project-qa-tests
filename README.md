@@ -60,7 +60,7 @@ Complete flow from homepage to checkout using different billing and shipping add
 
 ### 🚀 Smoke Test (Playwright)
 
-![Smoke test](docs/smoke-playwrite-pass.png)
+![Smoke test](docs/smoke-playwright-pass.png)
 
 ---
 
@@ -153,7 +153,7 @@ Flujo completo desde la página de inicio hasta checkout usando direcciones dife
 
 ### 🚀 Smoke Test (Playwright)
 
-![Smoke test](docs/smoke-playwrite-pass.png)
+![Smoke test](docs/smoke-playwright-pass.png)
 
 ---
 
@@ -208,6 +208,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📞 Support
 
 If you have any questions or issues, please open an issue on GitHub or contact the development team.
