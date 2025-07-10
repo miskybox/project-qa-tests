@@ -1,0 +1,55 @@
+# Page snapshot
+
+```yaml
+- text: SHOP
+- navigation:
+  - link "SHOP Home":
+    - /url: /
+    - text: SHOP
+  - 'link "Shopping cart: 0 items"':
+    - /url: /cart
+    - 'button "Shopping cart: 0 items"':
+      - img
+  - link "Men's Outerwear":
+    - /url: /list/mens_outerwear
+  - link "Ladies Outerwear":
+    - /url: /list/ladies_outerwear
+  - link "Men's T-Shirts":
+    - /url: /list/mens_tshirts
+  - link "Ladies T-Shirts":
+    - /url: /list/ladies_tshirts
+- main:
+  - link "Men's Outerwear":
+    - /url: /list/mens_outerwear
+    - img "Men's Outerwear"
+  - heading "Men's Outerwear" [level=2]
+  - link "Men's Outerwear Shop Now":
+    - /url: /list/mens_outerwear
+    - text: Shop Now
+  - link "Ladies Outerwear":
+    - /url: /list/ladies_outerwear
+    - img "Ladies Outerwear"
+  - heading "Ladies Outerwear" [level=2]
+  - link "Ladies Outerwear Shop Now":
+    - /url: /list/ladies_outerwear
+    - text: Shop Now
+  - link "Men's T-Shirts":
+    - /url: /list/mens_tshirts
+    - img "Men's T-Shirts"
+  - heading "Men's T-Shirts" [level=2]
+  - link "Men's T-Shirts Shop Now":
+    - /url: /list/mens_tshirts
+    - text: Shop Now
+  - link "Ladies T-Shirts":
+    - /url: /list/ladies_tshirts
+    - img "Ladies T-Shirts"
+  - heading "Ladies T-Shirts" [level=2]
+  - link "Ladies T-Shirts Shop Now":
+    - /url: /list/ladies_tshirts
+    - text: Shop Now
+- contentinfo:
+  - link "Made by Polymer":
+    - /url: https://www.polymer-project.org/3.0/toolbox/
+  - text: Demo Only
+- text: Home, loaded
+```
