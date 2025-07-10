@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","12281","@regression @shippingDiff E2E con dirección de envío diferente","regression","Thu Jul 10 20:28:14 CEST 2025","passed","Thu Jul 10 20:28:27 CEST 2025","","checkout-different-address.spec.ts","",""
+"","11660","@regression @shippingSame E2E con dirección de envío igual","shipping-same","Thu Jul 10 20:28:14 CEST 2025","passed","Thu Jul 10 20:28:26 CEST 2025","","checkout-same-address.spec.ts","",""
+"","12762","@regression @shippingDiff E2E con dirección de envío diferente","shipping-diff","Thu Jul 10 20:28:14 CEST 2025","passed","Thu Jul 10 20:28:27 CEST 2025","","checkout-different-address.spec.ts","",""
+"","11369","@regression @shippingSame E2E con dirección de envío igual","regression","Thu Jul 10 20:28:14 CEST 2025","passed","Thu Jul 10 20:28:26 CEST 2025","","checkout-same-address.spec.ts","",""

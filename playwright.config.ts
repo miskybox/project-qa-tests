@@ -1,33 +1,45 @@
-import { defineConfig, devices } from "@playwright/test";
+import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
-  testDir: "./tests",
-  timeout: 30_000,
+  testDir: './tests',
+  timeout: 30000,
   retries: 1,
   reporter: [
-    ["list"],
-    ["html", { outputFolder: "playwright-report", open: "never" }],
-    ["allure-playwright", { outputFolder: "allure-results", detail: true }],
+    ['list'],
+    ['html', { outputFolder: 'playwright-report' }],
+    ['allure-playwright', { outputFolder: 'allure-results' }]
   ],
+  projects: [
+  {
+    name: 'status',
+    grep: /@status/,
+  },
+  {
+    name: 'smoke',
+    grep: /@smoke/,
+  },
+  {
+    name: 'regression',
+    grep: /@regression/,
+  },
+  {
+    name: 'form-validation',
+    grep: /@form/,
+  },
+  {
+    name: 'shipping-same',
+    grep: /@shippingSame/,
+  },
+  {
+    name: 'shipping-diff',
+    grep: /@shippingDiff/,
+  }
+],
+
   use: {
     headless: true,
-    actionTimeout: 10_000,
-    screenshot: "on", //'only-on-failure',
-    trace: "on", //'on-first-retry',
-    video: "on", //'retain-on-failure'
-  },
-  projects: [
-    {
-      name: "chromium",
-      use: { ...devices["Desktop Chromium"] },
-    },
-    {
-      name: "firefox",
-      use: { ...devices["Desktop Firefox"] },
-    },
-    {
-      name: "safari",
-      use: { ...devices["Desktop Safari"] },
-    },
-  ],
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
+    trace: 'on-first-retry'
+  }
 });

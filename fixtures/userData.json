@@ -1,0 +1,21 @@
+{
+  "billingUser": {
+    "email": "eva@test.com",
+    "phone": "5551234567",
+    "address": "1350 NW 55th St",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "zip": "33309",
+    "cardName": "Eva Test",
+    "cardNumber": "4111111111111111",
+    "expMonth": "Jan",
+    "expYear": "2026",
+    "cvv": "123"
+  },
+  "shippingUser": {
+    "address": "1 AT&T Center Parkway",
+    "city": "San Antonio",
+    "state": "TX",
+    "zip": "78219"
+  }
+}
