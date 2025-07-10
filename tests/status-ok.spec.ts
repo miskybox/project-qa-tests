@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test("Verificar status HTTP 200 y guardar log manual", async ({
+test("@status Verificar status HTTP 200 y guardar log manual", async ({
   page,
 }, testInfo) => {
   const response = await page.goto("https://shop.polymer-project.org/");
