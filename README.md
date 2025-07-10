@@ -79,10 +79,10 @@ npx playwright install
 npm run test
 
 # Run specific test suites
-npm run test:regression     # E2E tests
-npm run test:smoke         # Smoke tests
-npm run test:same          # Same address checkout
-npm run test:different     # Different address checkout
+npm run test:regression      # E2E tests
+npm run test:smoke           # Smoke tests
+npm run test:shipping-same   # Same address checkout
+npm run test:shipping-diff   # Different address checkout
 
 # View reports
 npm run report             # HTML report
@@ -173,7 +173,7 @@ npx playwright install
 npm run test
 
 # Ejecutar suites específicos
-npm run test:regression     # Tests E2E
+npm run test:regression    # Tests E2E
 npm run test:smoke         # Tests smoke
 npm run test:same          # Checkout misma dirección
 npm run test:different     # Checkout dirección diferente
